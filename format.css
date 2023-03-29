@@ -3,8 +3,18 @@
     text-align: center;
 }
 
+.perfil{
+    background-color: #19A7CE;
+    width: 100%;
+   
+}
+
 body{
-    background-color: gray;
+    background-color: #F6F1F1;
+}
+
+hr{
+    border-style:dotted;   
 }
 
 #tabelaContatos{
