@@ -3,12 +3,36 @@
     text-align: center;
 }
 
+
+
+hr{
+    align: center;
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;   
+    border-color:grey;
+    border-width: 10px;
+   
+}
+
+h1{
+    color:#2F0F5D;
+}
+
+h2{
+    color: #2F0F5D;
+}
+
+h3{
+    color:#2F0F5D;
+}
+
 body{
-    background-color: gray;
+    background-color:#F5F3C1;
 }
 
 #tabelaContatos{
-    width: 90%;
+    width: 85%;
     text-align: center;
 }
 
