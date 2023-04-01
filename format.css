@@ -1,38 +1,32 @@
 
-#contatos{
-    text-align: center;
-}
-
-
-
 hr{
-    align: center;
     width: 5%;
     border-style: none;
     border-top-style: dotted;
-    border-color:grey;
+    border-color:rgb(107, 103, 103);
     border-width: 10px;
 
 }
 
 h1{
-    color:#2F0F5D;
+    color:#6a9717;
 }
 
 h2{
-    color: #2F0F5D;
+    color: #6a9717;
 }
 
 h3{
-    color:#2F0F5D;
+    color:#6a9717;
 }
 
 body{
-    background-color:#F5F3C1;
+    background-color:#1b1b19;
+    color: #fdfcfc;
 }
 
 #tabelaContatos{
-    width: 85%;
+    width: 20%;
     text-align: center;
 }
 
