@@ -2,11 +2,21 @@
 <html lang="pt-br">
     <link rel="stylesheet" href="format.css">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Calacio's Site</title>
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-success">
+        <div class="container-fluid">           
+            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="hobbies.html">Hobbies</a>
+            <a class="navbar-brand" href="contato.html">Contato</a>
+          </div>
+        
+        
+      </nav>
     <div class="perfil">
         <table>
         <tr>
@@ -23,63 +33,67 @@
         </tr>
         </table>
     </div>
-    <hr>
-
+    <br>
     <h2>Educação</h2>
-    <ul>
-        <li><strong>Anhaguera</strong> - Engenharia de Software com ênfase em qualidade - 2021</li>
-        <li><strong>Unopar</strong> - Análise e Desenvolvimento de Sistemas - 2020</li>
-        <li><strong>José Leopoldo de Sant'Anna</strong> - Ensino Médio - 2003</li>
-    </ul>
-
-    <hr>
-
+    <div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Anhaguera</strong> - Engenharia de Software com ênfase em qualidade - 2021</li>
+            <li class="list-group-item"><strong>Unopar</strong> - Análise e Desenvolvimento de Sistemas - 2020</li>
+            <li class="list-group-item"><strong>José Leopoldo de Sant'Anna</strong> - Ensino Médio - 2003</li>
+        </ul>
+    </div>
+    <br>
     <h2>Experiência</h2>
-    <table cellspacing = "10" >
-        <tr>
-            <th>Datas</th>
-            <th>Empresa</th>
-            <th>Último Cargo Ocupado</th>
-        </tr>
-        <tr>            
-            <td>2022-Atual</td>
-            <td align="center">PROCFIT</td>
-            <td>Assistente de Implantação</td>
-        </tr>
-        <tr>
-            <td>2021-2022</td>
-            <td align="center">Nagata & Gasparini</td>
-            <td>Analista de Processos</td>
-        </tr>
-        <tr>
-            <td>2004-2021</td>
-            <td align="center">Drogaria São Paulo SA</td>
-            <td>Gerente de Loja</td>
-        </tr>
-    </table>
-
-    <hr>
-
+    <div>
+        <table cellspacing = "10" class="table table-striped">
+            <tr class="table-success">
+                <th>Datas</th>
+                <th>Empresa</th>
+                <th>Último Cargo Ocupado</th>
+            </tr>
+            <tr>            
+                <td>2022-Atual</td>
+                <td>PROCFIT</td>
+                <td>Assistente de Implantação</td>
+            </tr>
+            <tr>
+                <td>2021-2022</td>
+                <td>Nagata & Gasparini</td>
+                <td>Analista de Processos</td>
+            </tr>
+            <tr>
+                <td>2004-2021</td>
+                <td>Drogaria São Paulo SA</td>
+                <td>Gerente de Loja</td>
+            </tr>
+        </table>
+    </div>
+    <br>
     <h2>Habilidades</h2>
-    <table cellspacing = "10">
-        <tr>
-            <td>Desenvolvimento WEB</td>
-            <td>⭐⭐</td>
-            <td>Banco de Dados - SQL</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Desenvolvimento C#</td>
-            <td>⭐⭐</td>
-            <td >Violão</td>
-            <td>⭐</td>
-        </tr>
-    </table>
+    <div>
+        <table cellspacing = "10" class="table table-striped">
+            <tr>
+                <td>Desenvolvimento WEB</td>
+                <td>⭐⭐</td>
+                <td>Banco de Dados - SQL</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Desenvolvimento C#</td>
+                <td>⭐⭐</td>
+                <td >Violão</td>
+                <td>⭐</td>
+            </tr>
+        </table>
+    </div>
     <br>
-    <hr>
+    
     <br>
-  <button><a href="hobbies.html">Hobbies</a></button>
-  <button><a href="contato.html">Contato</a></button>
-  
+    <div>
+        <button type="button" class="btn btn-link"><a href="hobbies.html">Hobbies</a></button>
+        <button type="button" class="btn btn-link"><a href="contato.html">Contato</a></button>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
